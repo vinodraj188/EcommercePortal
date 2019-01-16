@@ -46,41 +46,43 @@
             <c:choose>
                 <c:when test="${not empty object.getShipTo()}">
 
-                    <h4>Current Shipping Address:</h4>
+                   
 
                     <hr>
 
-                    <h3>${object.getShipTo()}</h3>
+                   
 
                 </c:when>
 
                 <c:otherwise>
-                    <h1>Shipping Address Not Set</h1>
+                   
                 </c:otherwise>
             </c:choose>
 
             <c:choose>
                 <c:when test="${not empty object.getBillTo()}">
 
-                    <h4>Current Billing Address:</h4>
+                    
 
                     <hr>
 
-                    <h4>${object.getBillTo()}</h4>
+                    
 
                 </c:when>
 
                 <c:otherwise>
-                    <h1>Billing Address Not Set</h1>
+                    
                 </c:otherwise>
             </c:choose>
 
             <form action="?updateAddress=true" method="post">
 
-                <input type="hidden" class="form-control" name="userid" value="${param.uid}" >
-                <input type="text" class="form-control" name="shipto"  value="${object.getShipTo()}" ><br>
-                <input type="text" class="form-control" name="billto"  value="${object.getBillTo()}"><br>
-                <button class="btn btn-success" type="submit">Update</button><br>
+                <input type="hidden" class="form-control" name="userid" value="${param.uid}">
+                <h1>Shipping Address</h1>
+                <input type="text" class="form-control" name="shipto"  value="${object.getShipTo()}" ><button class="btn btn-success" type="submit">Edit</button><br><br>
+                <h1>Billing Address</h1>
+                <input type="text" class="form-control" name="billto"  value="${object.getBillTo()}"><button class="btn btn-success" type="submit">Edit</button><br><br>
+  
 
             </form>
 

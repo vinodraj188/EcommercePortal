@@ -16,6 +16,20 @@
         <c:import url="/header.jsp"></c:import>
         <div class="container">
             <h4>Company Info</h4>            
+            <p>
+              Ecommerce Outlet Pvt Ltd. is an Indian electronic commerce company based in New Delhi, India. 
+              Created by Vinod Singh in 2019, the company initially focused on book sales 
+              before expanding into other product categories such as consumer electronics 
+              fashion, and lifestyle products.<br>
+              Contact:- +917991162524<br>
+              Customer service: 1800 208 9696<br>
+              Parent Organization:- Walmart<br>
+              
+                
+                
+            </p>
+        
+        
         </div>
         
     </body>
