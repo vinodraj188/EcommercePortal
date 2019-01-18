@@ -23,7 +23,8 @@
               fashion, and lifestyle products.<br>
               Contact:- +917991162524<br>
               Customer service: 1800 208 9696<br>
-              Parent Organization:- Walmart<br>
+              Email us:- krvinod88@gmail.com<br>
+              
               
                 
                 

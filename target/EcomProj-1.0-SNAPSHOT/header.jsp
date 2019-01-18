@@ -81,7 +81,7 @@
                         <a class="nav-link" href="/EcomProj/User/Login.jsp">Log In</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost:8080/EcomProj/User/Registration.jsp">Registration</a>
+                        <a class="nav-link" href="http://localhost:8080/EcomProj/User/Registration.jsp">Sign up</a>
                     </li>
                 </ul>
             </c:otherwise>
